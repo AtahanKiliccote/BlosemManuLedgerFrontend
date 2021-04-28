@@ -1,20 +1,20 @@
 import React from 'react'
-import '../css/App.css'
+import '../../css/App.css'
 
-class AddItem extends React.Component {
+class EditItem extends React.Component {
     render(){
         return(
             <div>
                 <div class="table-title">
-                    <h3>Add an item to the Asset Catalogue</h3>
+                    <h3>Edit an item in the Asset Catalogue</h3>
                 </div>
                 <hr/>
                 <b1>
-                    Series of forms to add items
+                    Series of forms to edit items
                 </b1>
             </div>
         )
     }
 }
 
-export default AddItem;
+export default EditItem;

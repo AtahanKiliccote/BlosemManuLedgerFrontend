@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
 
 body {
-  background-color: #e9f4ff;
+  background-color: #e7e8e9;
   font-family: "Roboto", helvetica, arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -34,7 +34,7 @@ div.table-title {
 /*** Table Styles **/
 
 .table-fill {
-  background: white;
+  background: rgb(0, 0, 0);
   border-radius:3px;
   border-collapse: collapse;
   height: 320px;
@@ -47,9 +47,8 @@ div.table-title {
  
 th {
   color:#000000;
-  background:#bcbdff;
-  border-bottom:4px solid #9ea7af;
-  border-right: 1px solid #343a45;
+  background:#bdbdbd;
+  border-bottom:4px solid #000000;
   font-size:23px;
   font-weight: 10px;
   padding:24px;
@@ -72,12 +71,13 @@ th:last-child {
 }
   
 tr {
-  border-top: 1px solid #C1C3D1;
-  border-bottom: 1px solid #C1C3D1;
-  color:#323441;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  color:#3b3b3b;
   font-size:16px;
   font-weight:normal;
   text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+  overflow-x: auto;   
 }
  
 tr:hover td {
@@ -99,7 +99,7 @@ tr:nth-child(odd) td {
 }
  
 tr:nth-child(odd):hover td {
-  background:#4E5066;
+  background:#5f5f5f;
 }
 
 tr:last-child td:first-child {
@@ -119,6 +119,9 @@ td {
   font-size:18px;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
   border-right: 1px solid #C1C3D1;
+  width: 10px;  
+  overflow-x: auto;
+  box-sizing: border-box;
 }
 
 td:last-child {
